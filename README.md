@@ -1,3 +1,1 @@
-# soschuetze.github.io
-
-## Welcome to my Personal Portfolio!
+# Sinclaire Schuetze's Personal Portfolio
