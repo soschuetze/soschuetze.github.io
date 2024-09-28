@@ -36,7 +36,7 @@ profiles:
 interests:
   - Graph Machine Learning
   - Computational Social Science
-  - Federal and Public Policy Applications
+  - Economic Applications
 
 education:
   - area: MSc Social Data Science
@@ -54,8 +54,8 @@ education:
 
       Thesis on the application of Siamese GNNs to the International Trade Network for the purpose of identifying financial crises. Also invited to Northeastern University London's Networks and Time II Conference for paper that used trade and migration networks to predict links in terrorism networks.
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
+      text: Read Thesis
+      url: uploads/Schuetze_sGNN_TradeNetworks.pdf
   - area: BA Data Science and Economics
     institution: Wellesley College
     date_start: 2019-08-01
@@ -64,12 +64,15 @@ education:
       GPA: 3.94/4.0
 
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Natural Language Processing
+      - Machine Learning
+      - Multivariate Data Analysis
+      - Applied Data Analysis and Statistical Inference
 
       Thesis on fine-tuning DistilBERT for classifying forms of advocacy within 21 million tweets related to the Black Lives Matter movement. Achieved F1-score of 0.89, which was a 25% increase from traditional NLP methods. Identified shifting trends within the movement, including a increased emphasis on disruptive rather than within-the-system forms of action. 
-
+    button:
+      text: Read Thesis
+      url: uploads/WCTC_2023_SchuetzeSinclaire_InsightsIntoANe.pdf
 work:
   - position: Research Fellow
     company_name: Stanford RegLab
@@ -77,21 +80,24 @@ work:
     company_logo: ''
     date_start: 2024-09-03
     date_end: 2025-09-02
-    summary: |2-
+    summary: |3-
       Responsibilities include:
-      - Training PyTorch Geometric GraphSAGE GNN to classify taxpayers’ risk of tax noncompliance within partnership networks, aiming to improve the IRS’s selection process for audits
-      - Implementing self-supervision tasks on heterogeneous graph such as link prediction and node classification using audit features to improve performance of GNN
+      - Training PyTorch Geometric GraphSAGE GNN to classify partnerships’ risk of noncompliance using networks of taxpayer structures
+      - Implementing self-supervision tasks on heterogeneous graph such as link prediction to  improve performance of GNN
+      - Analyze model predictions to ensure businesses identified provide greatest opportunity for increased revenue
+      - Utilize current ML and accounting research to guide decision making to improve the IRS’s audit selection process
   - position: Data Science Intern
     company_name: Mercury Insurance
     company_url: 'https://www.mercuryinsurance.com/'
     company_logo: ''
-    date_start: 2023-06-07
+    date_start: 2023-06-08
     date_end: 2023-08-15
-    summary: |
+    summary: |2-
       Responsibilities include:
-      - Analyzed XGBoost personal auto underwriting model to identify key areas for improvement, increasing predicted profit from model by 28%
+      - Analyzed XGBoost auto underwriting model to identify key areas for improvement, increasing predicted profit from model by 28% 
       - Created 15 new features using SQL queries, resulting in a 23% increase in predictive accuracy for high-risk policies
       - Optimized models using SHAP and XGBoost feature importances, maintaining performance after removing 60 features
+      - Built R-shiny dashboard with lift charts and profit improvement visualizations, facilitating decision making by stakeholders
   - position: Software Engineering Intern
     company_name: JP Morgan Chase & Co.
     company_url: 'https://www.jpmorgan.com/global'
@@ -100,43 +106,50 @@ work:
     date_end: 2022-08-12
     summary: |
       Responsibilities include:
-      - Implemented new method of contract testing API endpoints used in creation of data pipelines, making process more efficient for data engineers
-      - Developed 2 new Rest APIs and updated functionality of existing APIs using Swagger
-      - Automated 6 data pipelines using ETL framework, ingesting and transforming data from various data stores using Spark SQL and JPMC libraries, resulting in a more streamlined experience for business analysts
+      - Implemented contract testing framework, allowing for scalable testing of all microservice applications within data pipelines
+      - Developed 2 Rest APIs and updated functionality of existing APIs responsible for handling $2 trillion in consumer payments daily
+      - Built a new microservice to maintain logs using Java, Spring Boot, and Kafka
+  - position: Software Engineering Intern
+    company_name: JP Morgan Chase & Co.
+    company_url: 'https://www.jpmorgan.com/global'
+    company_logo: ''
+    date_start: 2021-06-07
+    date_end: 2022-08-13
+    summary: |
+      Responsibilities include:
+      - Automated 6 data pipelines using ETL framework, ingesting and transforming consumer data using Spark SQL and JPMC libraries
+      - Tested pipeline transformations and implemented step definitions using Cucumber files and deploying to DPL server
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Languages
     items:
       - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
       - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+      - name: Java
+      - name: R
+      - name: Stata
+  - name: Frameworks
+    items: 
+      - name: Machine Learning
+      - name: Deep Learning
+      - name: NLP
+      - name: Graph ML
+      - name: Hypothesis Testing
+      - name: Statistical Inference
+      - name: Multi-level Modeling
+      - name: Data Visualization
+  - name: Tools
+    items: 
+      - name: TensorFlow
+      - name: PyTorch
+      - name: PyTorch Geometric
+      - name: Spark
+      - name: NumPy
+      - name: Scikit-Learn
+      - name: Git
+      - name: Networkx
 
 languages:
   - name: English
@@ -178,4 +191,4 @@ awards:
 
 ## About Me
 
-Sinclaire Schuetze is a Research Fellow at the Stanford RegLab working to optimize the IRS's process of auditing partnerships through graph machine learning. She recieved her Master's in Social Data Science from the University of Oxford, where she began her focus on graph machine learning through the application to identifying financial crises using trade networks. She aims to continue her work of improving government processes and public policy through the application of advanced data science and machine learning methods.
+Sinclaire Schuetze is a Research Fellow at the Stanford RegLab working to optimize the IRS's process of auditing partnerships through graph machine learning. She received her Master's in Social Data Science from the University of Oxford, where she began her focus on graph machine learning through the application to identifying financial crises using trade networks. She aims to continue her work of improving government processes and public policy through the application of advanced data science and machine learning methods.
