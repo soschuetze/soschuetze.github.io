@@ -51,6 +51,7 @@ education:
       - Network Analysis
       - Applied Analytical Statistics
       - Data Analytics at Scale
+      - Data Analytics at Scale
 
       Thesis on the application of Siamese GNNs to the International Trade Network for the purpose of identifying financial crises. Also invited to Northeastern University London's Networks and Time II Conference for paper that used trade and migration networks to predict links in terrorism networks.
     button:
