@@ -58,8 +58,8 @@ education:
       url: 'https://example.com'
   - area: BA Data Science and Economics
     institution: Wellesley College
-    date_start: 2019
-    date_end: 2023
+    date_start: 2019-08-01
+    date_end: 2023-05-20
     summary: |
       GPA: 3.94/4.0
 
@@ -75,8 +75,8 @@ work:
     company_name: Stanford RegLab
     company_url: 'https://reglab.stanford.edu/'
     company_logo: ''
-    date_start: 2024-09
-    date_end: '2025-09'
+    date_start: 2024-09-03
+    date_end: 2025-09-02
     summary: |2-
       Responsibilities include:
       - Training PyTorch Geometric GraphSAGE GNN to classify taxpayers’ risk of tax noncompliance within partnership networks, aiming to improve the IRS’s selection process for audits
@@ -85,8 +85,8 @@ work:
     company_name: Mercury Insurance
     company_url: 'https://www.mercuryinsurance.com/'
     company_logo: ''
-    date_start: 2023-06
-    date_end: 2023-08
+    date_start: 2023-06-07
+    date_end: 2023-08-15
     summary: |
       Responsibilities include:
       - Analyzed XGBoost personal auto underwriting model to identify key areas for improvement, increasing predicted profit from model by 28%
@@ -96,8 +96,8 @@ work:
     company_name: JP Morgan Chase & Co.
     company_url: 'https://www.jpmorgan.com/global'
     company_logo: ''
-    date_start: 2021-06
-    date_end: 2022-08
+    date_start: 2021-06-06
+    date_end: 2022-08-12
     summary: |
       Responsibilities include:
       - Implemented new method of contract testing API endpoints used in creation of data pipelines, making process more efficient for data engineers
