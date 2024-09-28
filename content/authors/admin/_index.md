@@ -123,7 +123,33 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - title: Technical Skills
+  - title: Languages
+    items:
+      - name: Python
+      - name: SQL
+      - name: Java
+      - name: R
+      - name: Stata
+  - title: Frameworks
+    items: 
+      - name: Machine Learning
+      - name: Deep Learning
+      - name: NLP
+      - name: Graph ML
+      - name: Hypothesis Testing
+      - name: Statistical Inference
+      - name: Multi-level Modeling
+      - name: Data Visualization
+  - title: Tools
+    items: 
+      - name: TensorFlow
+      - name: PyTorch
+      - name: PyTorch Geometric
+      - name: Spark
+      - name: NumPy
+      - name: Scikit-Learn
+      - name: Git
+      - name: Networkx
 
 languages:
   - name: English
