@@ -51,7 +51,6 @@ education:
       - Network Analysis
       - Applied Analytical Statistics
       - Data Analytics at Scale
-      - Data Analytics at Scale
 
       Thesis on the application of Siamese GNNs to the International Trade Network for the purpose of identifying financial crises. Also invited to Northeastern University London's Networks and Time II Conference for paper that used trade and migration networks to predict links in terrorism networks.
     button:
@@ -81,7 +80,7 @@ work:
     company_logo: ''
     date_start: 2024-09-03
     date_end: 2025-09-02
-    summary: |3-
+    summary: |-
       Responsibilities include:
       - Training PyTorch Geometric GraphSAGE GNN to classify partnerships’ risk of noncompliance using networks of taxpayer structures
       - Implementing self-supervision tasks on heterogeneous graph such as link prediction to  improve performance of GNN
@@ -93,7 +92,7 @@ work:
     company_logo: ''
     date_start: 2023-06-08
     date_end: 2023-08-15
-    summary: |2-
+    summary: |-
       Responsibilities include:
       - Analyzed XGBoost auto underwriting model to identify key areas for improvement, increasing predicted profit from model by 28% 
       - Created 15 new features using SQL queries, resulting in a 23% increase in predictive accuracy for high-risk policies
@@ -124,7 +123,7 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - title: Technical Skills
 
 languages:
   - name: English
