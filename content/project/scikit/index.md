@@ -1,13 +1,13 @@
 ---
-title: scikit-learn
-date: 2023-10-26
-external_link: https://github.com/scikit-learn/scikit-learn
+title: DistilBERT for BLM Classification
+date: 2023-05-01
+external_link: https://github.com/soschuetze/BLM-DistilBERT
 tags:
   - Hugo
   - Wowchemy
   - Markdown
 ---
 
-scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.
+Implemented traditional and deep learning ML models for classifying forms of advocacy contained in 21 million BLM tweets. Analyzed model classifications, discovering shift away from within-the-system and towards disruptive forms of activism.
 
 <!--more-->
