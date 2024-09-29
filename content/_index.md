@@ -31,12 +31,12 @@ sections:
           position: center
           parallax: false
   - block: collection
-    id: talks
+    id: projects
     content:
-      title: Recent & Upcoming Talks
+      title: Recent Projects
       filters:
         folders:
-          - event
+          - project
     design:
       view: article-grid
       columns: 1
