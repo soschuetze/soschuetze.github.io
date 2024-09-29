@@ -155,4 +155,4 @@ skills:
 
 ## About Me
 
-Sinclaire Schuetze is a Research Fellow at the Stanford RegLab working to optimize the IRS's process of auditing partnerships through graph machine learning. She received her Master's in Social Data Science from the University of Oxford, where she began her focus on graph machine learning through the application to identifying financial crises using trade networks. She aims to continue her work of improving government processes and public policy through the application of advanced data science and machine learning methods.
+Sinclaire Schuetze is a Research Fellow at the Stanford RegLab working to optimize the IRS's process of auditing partnerships through graph machine learning. She received her Master's in Social Data Science from the University of Oxford, where she began her focus on graph machine learning by using GNNs to identify financial crises within trade networks. She aims to continue her work of improving government processes and public policy with the application of advanced data science and machine learning methods.
